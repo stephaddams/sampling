@@ -52,7 +52,7 @@ Describe your target population, sampling frame, sampling units, and observation
 * Target Population: People aged between 18-80 years who live in Toronto. 
 * Sampling Frame: Students, alumni, community members and staff from the University of Toronto.
 * Sampling Units: Individual respondent. Each participant represents one unit of analysis.
-* Observational Units: Stratify Quota samplings, stratas by age group (18-25, 26-45, 46-65, 65+) each with a quota of 25 individuals, with a convenience survey approach.
+* Observational Units: Stratify Quota samplings, stratas by age group (18-25, 26-45, 46-65, +65) each with a quota of 25 individuals, with a convenience survey approach.
 ```
 
 Your 5-10 question survey:
@@ -128,7 +128,61 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: 
+    The survey used a cross-sectional probability sample drawn from a stratified design, with each strata based on geography (province and Census Metropolitan Area). It is representative for the reference year.
+
+2. Sample size
+    A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+
+3. Target population
+    All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame
+    GSS uses a two-stage sampling design. The sampling units are the groups of telephone numbers. The final stage units are individuals within the identified households. Note that GSS only selects one eligible person per household to be interviewed.
+
+5. Survey mode(s) 
+    Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing). No proxy reporting is allowed. 
+
+6. Timeline
+    Reference period: Past 12 months prior to interview.
+    Collection period: September 4 – December 28, 2018.
+    Data release: January 26, 2021
+
+7. Response rate
+    The overall response rate is 41.9%.
+
+8. Weights
+    Weights were constructed to represent the target population. Each respondent represents a number of similar persons not in the sample.
+    A basic weight variable (WGHT_PER) is provided for person-level analysis.
+    Additionally, bootstrap weights are available to estimate variances in design-based analyses
+
+9. Data processing
+    Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs.
+    The CATI data capture program allowed a valid range of codes for each question and built-in edits, and automatically follows the flow of the questionnaire.
+    All survey records were subjected to computer edits throughout the course of the interview. 
+
+10. Cleaning, imputation, etc
+    Imputation was used to fill missing or partial non-response values.
+    Donor imputation (nearest similar respondent) was the main method.
+    If no donor matched, mean imputation within pools was used.
+    Imputation was carried out in nine steps, covering personal income, volunteering variables, and donation/solicitation data.
+    Personal income questions were not directly asked; income was obtained by linking respondents to tax records and then imputed if needed. 
+
+11. Sources of error
+    Sampling errors:
+    As the data are based on a sample of persons, they are subject to sampling error
+    The bootstrap method was used to estimate the sampling variability for all of the estimates produced based on the data from 2018 GSS.
+    Non-response errors:
+    Some non-response occurred at the household level, and some at the individual level. Survey estimates will be adjusted (i.e. weighted) to account for non-response cases. Other types of non-sampling errors can include response errors and processing errors.
+
+12. Limitations, known biases, etc
+    Exclusion of households without phones may bias results if excluded populations differ systematically.
+    Non-response bias was addressed through weighting adjustments, including modeling non-response using administrative data.
+    Even with edits and quality control, some measurement and processing errors may remain.
+    Estimates with high sampling variation are flagged in published outputs using bootstrap methods.
+
+13. Link to documentation and any additional sources used
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
