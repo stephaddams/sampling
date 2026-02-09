@@ -40,30 +40,87 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+Identify if the music taste of individuals is correlated to their age, with an specific focus on how popular music is percived. With this survey, I'm aiming to analyze the differences in music preferences across multiple age groups, as well as changes in music taste within the same individuals over their lifetime. Results will be used as part of an academic paper. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+* Target Population: People aged between 18-80 years who live in Toronto. 
+* Sampling Frame: Students, alumni, community members and staff from the University of Toronto.
+* Sampling Units: Individual respondent. Each participant represents one unit of analysis.
+* Observational Units: Stratify Quota samplings, stratas by age group (18-25, 26-45, 46-65, +65) each with a quota of 25 individuals, with a convenience survey approach.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age group? :
+    []  18 - 25
+    []  26 - 45
+    []  46 - 65
+    []  + 65
+
+2. Which of the following music genres do you most frequently listen to?
+    [] Pop
+    [] Rock/Metal
+    [] Hip-Hop/Rap/R&B
+    [] Country
+    [] Electronic/Dance/House/Techno
+    [] Classical
+    [] Jazz/Blues
+    [] Reggae
+    [] Folk/ Regional
+    Other, specify:_______________________
+
+3. Defining "popular music" as contemporary chart-topping music. How positive or negative is your current perception of popular music?
+    [] Strongly positive
+    [] Somewhat positive
+    [] Neutral
+    [] Somewhat negative
+    [] Strongly negative
+
+4. Defining "popular music" as contemporary chart-topping music. How have your  perception of popular music has developed over the years since you turned 18yo?
+    [] Increased 
+    [] Decreased
+    [] Stayed the same
+    [] Not relevant
+
+
+5. On average, how many much time per day do you spend listening to music?
+    [] Less than an hour
+    [] 1-2hrs
+    [] 3 - 5hrs
+    [] 6 - 8hrs
+    [] 9 - 12hrs
+    [] +12hrs
+
+6. Do you feel that your music taste has changed as you have aged?
+    [] Yes, significantly
+    [] Yes, somewhat
+    [] No, not much
+    [] No, not at all
+
+
+7. Which factor MOST influences your current music taste?
+    [] Friends/Peers
+    [] Family
+    [] Workplace
+    [] Internet (e.g., social media, streaming services)
+    [] Personal mood
+
+8. Have you ever stopped listening to a genre you once loved?
+    [] Yes
+    [] No
+
+9. How do you think your personal music taste has changed as you have aged?
+    [] Always changes
+    [] Yes, significantly
+    [] Yes, somewhat
+    [] No, not much
+    [] No, not at all
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +128,61 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: 
+    The survey used a cross-sectional probability sample drawn from a stratified design, with each strata based on geography (province and Census Metropolitan Area). It is representative for the reference year.
+
+2. Sample size
+    A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+
+3. Target population
+    All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame
+    GSS uses a two-stage sampling design. The sampling units are the groups of telephone numbers. The final stage units are individuals within the identified households. Note that GSS only selects one eligible person per household to be interviewed.
+
+5. Survey mode(s) 
+    Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing). No proxy reporting is allowed. 
+
+6. Timeline
+    Reference period: Past 12 months prior to interview.
+    Collection period: September 4 – December 28, 2018.
+    Data release: January 26, 2021
+
+7. Response rate
+    The overall response rate is 41.9%.
+
+8. Weights
+    Weights were constructed to represent the target population. Each respondent represents a number of similar persons not in the sample.
+    A basic weight variable (WGHT_PER) is provided for person-level analysis.
+    Additionally, bootstrap weights are available to estimate variances in design-based analyses
+
+9. Data processing
+    Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs.
+    The CATI data capture program allowed a valid range of codes for each question and built-in edits, and automatically follows the flow of the questionnaire.
+    All survey records were subjected to computer edits throughout the course of the interview. 
+
+10. Cleaning, imputation, etc
+    Imputation was used to fill missing or partial non-response values.
+    Donor imputation (nearest similar respondent) was the main method.
+    If no donor matched, mean imputation within pools was used.
+    Imputation was carried out in nine steps, covering personal income, volunteering variables, and donation/solicitation data.
+    Personal income questions were not directly asked; income was obtained by linking respondents to tax records and then imputed if needed. 
+
+11. Sources of error
+    Sampling errors:
+    As the data are based on a sample of persons, they are subject to sampling error
+    The bootstrap method was used to estimate the sampling variability for all of the estimates produced based on the data from 2018 GSS.
+    Non-response errors:
+    Some non-response occurred at the household level, and some at the individual level. Survey estimates will be adjusted (i.e. weighted) to account for non-response cases. Other types of non-sampling errors can include response errors and processing errors.
+
+12. Limitations, known biases, etc
+    Exclusion of households without phones may bias results if excluded populations differ systematically.
+    Non-response bias was addressed through weighting adjustments, including modeling non-response using administrative data.
+    Even with edits and quality control, some measurement and processing errors may remain.
+    Estimates with high sampling variation are flagged in published outputs using bootstrap methods.
+
+13. Link to documentation and any additional sources used
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
