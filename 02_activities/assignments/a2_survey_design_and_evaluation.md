@@ -40,30 +40,87 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+Identify if the music taste of individuals is correlated to their age, with an specific focus on how popular music is percived. With this survey, I'm aiming to analyze the differences in music preferences across multiple age groups, as well as changes in music taste within the same individuals over their lifetime. Results will be used as part of an academic paper. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+* Target Population: People aged between 18-80 years who live in Toronto. 
+* Sampling Frame: Students, alumni, community members and staff from the University of Toronto.
+* Sampling Units: Individual respondent. Each participant represents one unit of analysis.
+* Observational Units: Stratify Quota samplings, stratas by age group (18-25, 26-45, 46-65, 65+) each with a quota of 25 individuals, with a convenience survey approach.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age group? :
+    []  18 - 25
+    []  26 - 45
+    []  46 - 65
+    []  + 65
+
+2. Which of the following music genres do you most frequently listen to?
+    [] Pop
+    [] Rock/Metal
+    [] Hip-Hop/Rap/R&B
+    [] Country
+    [] Electronic/Dance/House/Techno
+    [] Classical
+    [] Jazz/Blues
+    [] Reggae
+    [] Folk/ Regional
+    Other, specify:_______________________
+
+3. Defining "popular music" as contemporary chart-topping music. How positive or negative is your current perception of popular music?
+    [] Strongly positive
+    [] Somewhat positive
+    [] Neutral
+    [] Somewhat negative
+    [] Strongly negative
+
+4. Defining "popular music" as contemporary chart-topping music. How have your  perception of popular music has developed over the years since you turned 18yo?
+    [] Increased 
+    [] Decreased
+    [] Stayed the same
+    [] Not relevant
+
+
+5. On average, how many much time per day do you spend listening to music?
+    [] Less than an hour
+    [] 1-2hrs
+    [] 3 - 5hrs
+    [] 6 - 8hrs
+    [] 9 - 12hrs
+    [] +12hrs
+
+6. Do you feel that your music taste has changed as you have aged?
+    [] Yes, significantly
+    [] Yes, somewhat
+    [] No, not much
+    [] No, not at all
+
+
+7. Which factor MOST influences your current music taste?
+    [] Friends/Peers
+    [] Family
+    [] Workplace
+    [] Internet (e.g., social media, streaming services)
+    [] Personal mood
+
+8. Have you ever stopped listening to a genre you once loved?
+    [] Yes
+    [] No
+
+9. How do you think your personal music taste has changed as you have aged?
+    [] Always changes
+    [] Yes, significantly
+    [] Yes, somewhat
+    [] No, not much
+    [] No, not at all
 ```
 
 ## Part B - Survey Evaluation:
